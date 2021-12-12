@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -10,6 +11,11 @@ int main()
 
 	string stored_username = "varun";
 	string stored_passwd = "password";
+
+	vector<string> my_record;
+
+	my_record.push_back("puppala");
+	
 
 	cout << "Enter the username" << endl;
 	getline(cin, username, '\n');
